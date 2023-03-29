@@ -1,20 +1,30 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 
-function Navbar() {
+function NavBar() {
   return (
-    <div className="">
-        <div className="">
-            <button> </button>
-        </div>
-        <div className="links">
-            <Link to='/'>Home</Link>
-            <Link to='/portfolio'>Portfolio</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/contact'>Contact</Link>
-        </div>
-        </div>
+    <>
+<Navbar style={{backgroundColor: "violet"}}  variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">SD</Navbar.Brand>
+          <Nav className="me-auto">
+          <Nav.Link as={Link} to="/" >Home</Nav.Link>
+            <Nav.Link as={Link} to='/portfolio'>Portfolio</Nav.Link>
+            <Nav.Link as={Link} to='/about'>About</Nav.Link>
+            <Nav.Link as={Link} to='/contact'>Contact</Nav.Link> 
+          </Nav>
+        </Container>
+      </Navbar>
+      </>
+         
+        // <div className="">
+        //     <Link to='/'>Home</Link>
+        //     <Link to='/portfolio'>Portfolio</Link>
+        //     <Link to='/about'>About</Link>
+        //     <Link to='/contact'>Contact</Link>    
+        
   )
 }
 
-export default Navbar;
+export default NavBar;
