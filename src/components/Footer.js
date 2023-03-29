@@ -2,8 +2,8 @@
 
 function Footer() {
   return (
-    <div className="footer">
-        <div>icons</div>
+    <div className="">
+        <div>footer icons</div>
         <p> &copy;  2023 Shoshana Dorfman</p>
     </div>
   )

@@ -2,7 +2,8 @@
 
 function Portfolio() {
   return (
-    <div>Portfolio</div>
+    <div>Project Cards</div>
+
   )
 }
 
