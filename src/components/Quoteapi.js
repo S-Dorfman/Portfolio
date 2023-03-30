@@ -1,7 +1,7 @@
 
 
 function Quoteapi({data}) {
-  console.log(data);
+  // console.log(data);
   return (
     <>
     <h1>Quote from Game of Thrones Show</h1>

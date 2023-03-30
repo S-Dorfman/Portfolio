@@ -14,7 +14,7 @@ function Home() {
     <ol>
         <li className="">
             <h2>Front-end</h2>
-            <span>HTML, CSS, React</span>
+            <span>HTML, CSS, ReactJS</span>
         </li>
     </ol>
     </div>
