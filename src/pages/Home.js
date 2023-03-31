@@ -9,7 +9,7 @@ function Home() {
     <p>Full-Stack Engineer with a passion for..</p>
     </div>
 
-    <div className=""> 
+    <div className="skills"> 
     <h1>Skills</h1>
     <ol>
         <li className="">
