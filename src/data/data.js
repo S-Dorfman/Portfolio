@@ -16,5 +16,11 @@ export const projectArr = [
         title: "Movies App",
         text: "Movie Search App built with React",
         url: "https://github.com/S-Dorfman/moviesapp"   
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5ixr_SGX0VP2lNdSui6YMEYdycT2x5VjNDA&usqp=CAU",
+        title: "Pokemon API",
+        text: "Pokemon API built with React",
+        url: "https://github.com/S-Dorfman/PokemonApp"   
     }
 ]

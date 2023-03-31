@@ -1,8 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ubuntu&display=swap');
+
+
 .App {
   text-align: center;
+  background-color: #F2E5E5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home-page {
+  margin-top: 20px;
 }
 
 body {
   padding: 0;
   margin: 0;
 }
+
+/* .project-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 16rem;
+  height: 20rem;
+  gap: 5px; 
+} */

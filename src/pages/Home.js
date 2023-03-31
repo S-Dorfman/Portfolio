@@ -1,12 +1,12 @@
 import { Button } from "react-bootstrap";
+import '../App.css';
 
 function Home() {
   return (
-    <div className="">
+    <div className="home-page">
     <div className=""> 
     <h2>Shoshana Dorfman</h2>
     <p>Full-Stack Engineer with a passion for..</p>
-    <p>icons</p>
     </div>
 
     <div className=""> 
@@ -20,8 +20,8 @@ function Home() {
     </div>
 
     <div>
-    <Button variant="outline-info">View Portfolio</Button>
-
+      {/* ?page reloads */}
+    <Button href="/portfolio" variant="outline-light" style={{backgroundColor: "#CE7777"}}>View Portfolio</Button>
     </div>
 
     </div>

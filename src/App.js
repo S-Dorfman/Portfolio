@@ -21,8 +21,8 @@ function App() {
         <Route path="/quote" element={<Quote />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      </Router>
       <Footer />
-     </Router>
     </div>
   );
 }

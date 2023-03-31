@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, } from 'react-bootstrap';
 
 
 function NavBar() {
   return (
     <>
-<Navbar style={{backgroundColor: "violet"}}  variant="dark">
+<Navbar style={{backgroundColor: "#CE7777"}}  variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/">SD</Navbar.Brand>
+          <Navbar.Brand style={{fontFamily: "Dancing Script"}} as={Link} to="/">SD</Navbar.Brand>
           <Nav className="me-auto">
           <Nav.Link as={Link} to="/" >Home</Nav.Link>
             <Nav.Link as={Link} to='/portfolio'>Portfolio</Nav.Link>
