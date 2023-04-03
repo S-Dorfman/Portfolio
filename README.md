@@ -15,7 +15,7 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## API Reference
 
-- [Website Link](https://gameofthronesquotes.xyz/)
+- [GOT Quote API](https://gameofthronesquotes.xyz/)
 
 ## Built with
 
@@ -24,7 +24,7 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## Link to live Website
 
-- [Website Link](https://sdorfman-portfolio.netlify.app/)
+- [Portfolio Website](https://sdorfman-portfolio.netlify.app/)
 
 ## Roadmap
 
@@ -35,5 +35,5 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## Contact
 
--[ LinkedIn](https://www.linkedin.com/in/shoshana-dorfman-859b161a2/)
+- [LinkedIn](https://www.linkedin.com/in/shoshana-dorfman-859b161a2/)
 - [Github](https://github.com/S-Dorfman)

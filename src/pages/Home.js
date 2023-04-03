@@ -6,17 +6,13 @@ function Home() {
     <div className="home-page">
     <div className=""> 
     <h2>Shoshana Dorfman</h2>
-    <p>Full-Stack Engineer with a passion for..</p>
+    <p>Full-Stack Engineer with an  eye for detail, creative mindset and passion for creating dynamic, responsive websites
+      that provide a seamless user experience.</p>
     </div>
 
     <div className="skills"> 
     <h1>Skills</h1>
-    <ol>
-        <li className="">
-            <h2>Front-end</h2>
-            <span>HTML, CSS, ReactJS</span>
-        </li>
-    </ol>
+    <h2>HTML | CSS | JavaScript | Node.js | Express.js | MongoDB | Mongoose | React | SQL Computer Science Concepts Frontend and Backend Frameworks | Data Structures and Algorithms</h2>
     </div>
 
     <div>
