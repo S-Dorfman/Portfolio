@@ -5,6 +5,7 @@ function Portfolio() {
 
         return(
             <div>
+              <h2>Portfolio</h2>
                 <Row xs={1} md={2} className="g-4">
             {projectArr.map((element) => {
                 console.log(projectArr);
