@@ -11,7 +11,7 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 - [YouTube Tutorial](https://youtu.be/8pKjULHzs0s?list=PLhwvZuAVtz8GvwOapJuVjHWUWRfcWAf7o) 
 - [Google Fonts](https://fonts.google.com/) 
 - [Color Hunt](https://colorhunt.co/)
-- And of course my instructors and colleagues at Per Scholas
+- And a special thank you to my instructors and colleagues at Per Scholas for their guidance and insight along the way!
 
 ## API Reference
 
@@ -19,8 +19,8 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## Built with
 
--ReactJS
--Bootstrap
+- ReactJS
+- Bootstrap
 
 ## Link to live Website
 
