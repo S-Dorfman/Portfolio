@@ -6,7 +6,7 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## Resources
 
-- [React Docs](https://react.dev/learn) 
+- [React Documentation](https://react.dev/learn) 
 - [YouTube Tutorial](https://www.youtube.com/watch?v=x7mwVn2z3Sk&list=PLhwvZuAVtz8GvwOapJuVjHWUWRfcWAf7o&index=2&t=294s) 
 - [YouTube Tutorial](https://youtu.be/8pKjULHzs0s?list=PLhwvZuAVtz8GvwOapJuVjHWUWRfcWAf7o) 
 - [Google Fonts](https://fonts.google.com/) 
@@ -15,7 +15,7 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## API Reference
 
--[Website Link] (https://gameofthronesquotes.xyz/)
+- [Website Link](https://gameofthronesquotes.xyz/)
 
 ## Built with
 
@@ -24,16 +24,16 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## Link to live Website
 
--[Website Link] (https://sdorfman-portfolio.netlify.app/)
+- [Website Link](https://sdorfman-portfolio.netlify.app/)
 
 ## Roadmap
 
-1. Making Navbar responsive for mobile devices
-2. Animate navbar links on hover, highlight contact button to provide interactivity and make navigation clear to user
-3. Animate view portfolio button on home page
-4. Add contact form
+- Making Navbar responsive for mobile devices
+- Animate navbar links on hover, highlight contact button to provide interactivity and make navigation clear to user
+- Animate view portfolio button on home page
+- Add contact form
 
 ## Contact
 
--[LinkedIn] (https://www.linkedin.com/in/shoshana-dorfman-859b161a2/)
--[Github] (https://github.com/S-Dorfman)
+-[ LinkedIn](https://www.linkedin.com/in/shoshana-dorfman-859b161a2/)
+- [Github](https://github.com/S-Dorfman)
