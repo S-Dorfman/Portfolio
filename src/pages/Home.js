@@ -16,6 +16,8 @@ function Home() {
     </div>
 
     {/* add icons here */}
+    
+    <br /> 
 
     <div className="skills"> 
     <h3>Skills</h3>

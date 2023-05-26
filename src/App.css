@@ -19,8 +19,12 @@ body {
   margin-right: 40px;
 }
 
-.skills {
+/* .skills {
+ 
+} */
 
+li {
+  list-style: none;
 }
 
 .Footer {
@@ -37,11 +41,12 @@ body {
 
 /* profile image */
 img {
-border: 5px solid rgb(35, 35, 119);
+border: 5px solid #CE7777;
  border-radius: 50%;
  width: 20%;
  height: auto;
 }
+
 
 /* .project-cards {
   display: flex;

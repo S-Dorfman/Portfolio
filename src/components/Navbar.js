@@ -13,7 +13,7 @@ function NavBar() {
             <Nav.Link as={Link} to='/portfolio'>Portfolio</Nav.Link>
             {/* <Nav.Link as={Link} to='/about'>About</Nav.Link> */}
             <Nav.Link as={Link} to='/quote'>Quote</Nav.Link>
-            <Nav.Link as={Link} to='/contact'>Contact</Nav.Link> 
+            {/* <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>  */}
           </Nav>
         </Container>
       </Navbar>
