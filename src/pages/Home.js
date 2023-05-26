@@ -1,14 +1,21 @@
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
+// import Portfolio from "./Portfolio";
 import '../App.css';
+import photo from '../images/photo.jpg'
+
 
 function Home() {
   return (
     <div className="home-page">
     <div className=""> 
+    <img src={photo} alt="Shoshana"></img>
     <h2>Shoshana Dorfman</h2>
-    <p>Full-Stack Engineer with an  eye for detail, a creative mindset and passion for creating dynamic, responsive websites
-      that provide a valuable and seamless user experience.</p>
+    <h3>Full-Stack Engineer with an  eye for detail, a creative mindset and 
+      passion for creating dynamic, responsive websites
+      that provide a valuable and seamless user experience.</h3>
     </div>
+
+    {/* add icons here */}
 
     <div className="skills"> 
     <h3>Skills</h3>
@@ -26,10 +33,10 @@ function Home() {
     </ul>
     </div>
 
-    <div>
-      {/* ?page reloads */}
+     {/* todo link does not work on deployed site */}
+    {/* <div>
     <Button href="/portfolio" variant="outline-light" style={{backgroundColor: "#CE7777"}}>View Portfolio</Button>
-    </div>
+    </div> */}
 
     </div>
   )

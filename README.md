@@ -20,9 +20,9 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## Built with
 
-- ReactJS
-- Bootstrap
-- React Icons
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 
 ## Link to live Website
 
@@ -30,12 +30,12 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 ## Roadmap
 
-- Making Navbar responsive for mobile devices
-- Animate navbar links on hover, highlight contact button to provide interactivity and make navigation clear to user
-- Animate view portfolio button on home page
-- Add contact form
+- [ ] Making Navbar responsive for mobile devices
+- [ ] Animate navbar links on hover, highlight contact button to provide interactivity and make navigation clear - [ ] Animate view portfolio button on home page
+- [ ] Add contact form
 
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/shoshana-dorfman-859b161a2/)
 - [Github](https://github.com/S-Dorfman)
+- [Email] (sdorfman.tech@gmail.com) 
