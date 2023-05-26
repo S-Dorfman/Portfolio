@@ -31,7 +31,7 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 ## Roadmap
 
 - [ ] Making Navbar responsive for mobile devices
-- [ ] Animate navbar links on hover, highlight contact button to provide interactivity and make navigation clear - [ ] Animate view portfolio button on home page
+- [ ] Animate navbar links on hover to make navigation clear 
 - [ ] Add contact form
 
 ## Contact
