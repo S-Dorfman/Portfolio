@@ -38,4 +38,4 @@ This portfolio website is built with ReactJS and Bootstrap. It was created with 
 
 - [LinkedIn](https://www.linkedin.com/in/shoshana-dorfman-859b161a2/)
 - [Github](https://github.com/S-Dorfman)
-- [Email] (sdorfman.tech@gmail.com) 
+- sdorfman.tech@gmail.com 

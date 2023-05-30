@@ -7,10 +7,14 @@ body {
   background-color: #F2E5E5 !important;
 }
 
+/* App.js */
+
 .App {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
 }
+
+/* * home */
 
 .home-page {
   margin-top: 20px;
@@ -27,9 +31,20 @@ li {
   list-style: none;
 }
 
+/* profile image */
+img {
+  border: 5px solid #CE7777;
+   border-radius: 50%;
+   width: 20%;
+   height: auto;
+  }
+  
+
 .Footer {
   margin-top: 50px;
 }
+
+/* portfolio */
 
 /* portfolio cards */
 .g-4 {
@@ -39,13 +54,6 @@ li {
 
 }
 
-/* profile image */
-img {
-border: 5px solid #CE7777;
- border-radius: 50%;
- width: 20%;
- height: auto;
-}
 
 
 /* .project-cards {

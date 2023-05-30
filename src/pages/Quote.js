@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Quoteapi from '../components/Quoteapi';
 
 
+
 function Quote() {
 //api key = https://api.gameofthronesquotes.xyz/v1/random
 // state to hold data
