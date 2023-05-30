@@ -2,6 +2,7 @@
 // import Portfolio from "./Portfolio";
 import '../App.css';
 import photo from '../images/photo.jpg'
+import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
 
 
 function Home() {
@@ -10,17 +11,21 @@ function Home() {
     <div className=""> 
     <img src={photo} alt="Shoshana"></img>
     <h2>Shoshana Dorfman</h2>
+    <div className='home-icons'>
     <h3>Full-Stack Engineer with an  eye for detail, a creative mindset and 
       passion for creating dynamic, responsive websites
       that provide a valuable and seamless user experience.</h3>
     </div>
 
-    {/* add icons here */}
+    <a href="https://github.com/S-Dorfman"><AiOutlineGithub size='2.5rem' /></a>
+      <a href="https://www.linkedin.com/in/shoshana-dorfman-859b161a2/"><AiOutlineLinkedin size='2.5rem'/></a>
+      <a href="mailto:sdorfman.tech@gmail.com"><AiOutlineMail size='2.5rem'/></a>
+    </div>
     
     <br /> 
 
     <div className="skills"> 
-    <h3>Skills</h3>
+    <h3>Skills:</h3>
     <ul>
       <li>HTML</li>
       <li>CSS</li>

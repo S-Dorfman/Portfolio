@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #F2E5E5 !important;
+  background-color: #e6f4f5 !important;
 }
 
 /* App.js */
@@ -33,7 +33,7 @@ li {
 
 /* profile image */
 img {
-  border: 5px solid #CE7777;
+  border: 5px solid #3d5a80;
    border-radius: 50%;
    width: 20%;
    height: auto;
@@ -41,18 +41,21 @@ img {
   
 
 .Footer {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
-/* portfolio */
+/** portfolio */
 
 /* portfolio cards */
 .g-4 {
   /* display: flex; */
   justify-content: center;
- gap: 5px;
+  gap: 10px;
+
 
 }
+
+
 
 
 

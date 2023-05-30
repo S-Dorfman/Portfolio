@@ -4,10 +4,11 @@ function Quoteapi({data}) {
   // console.log(data);
   return (
     <>
-    <h2>Quote from Game of Thrones Show</h2>
-    <h3>{data.sentence}</h3>
-    <h3>{data.character.name}</h3>
-    <h5>{data.character.house.name}</h5>
+    <h3>Quote from the Game of Thrones Verse:</h3>
+    <h4>{data.sentence}</h4>
+    <h5>{data.character.name}</h5>
+    {/* <h5>{data.character.house.name}</h5> */}
+    <p>-randomly generated from Game of Thrones API</p>
     </>
   )
 }

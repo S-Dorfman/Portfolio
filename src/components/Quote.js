@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Quoteapi from '../components/Quoteapi';
+import Quoteapi from './Quoteapi';
 
 
 
