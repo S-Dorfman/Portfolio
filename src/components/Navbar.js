@@ -5,7 +5,7 @@ import { Container, Nav, Navbar, } from 'react-bootstrap';
 function NavBar() {
   return (
     <>
-<Navbar style={{backgroundColor: "#3d5a80", marginBottom: "30px"}}  variant="dark">
+<Navbar style={{backgroundColor: "#5f80ab", marginBottom: "30px"}}  variant="dark">
         <Container>
           <Navbar.Brand style={{fontFamily: "Dancing Script"}} as={Link} to="/">SD</Navbar.Brand>
           <Nav className="me-auto">
