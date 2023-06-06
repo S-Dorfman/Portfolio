@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color: #072a58;
     color: #f0f0f0;
   }
   
@@ -42,50 +42,25 @@
     color: white;
   }
 
-  /* about */
+ 
+  .summary h1 {
+      color: #3e497a;
+      font-weight: 500;
+    }
+    .summary {
+      margin-top: 20px;
+      margin-left: 20%;
+      margin-right: 20%;
+      font-size: 18px;
+      text-align: center;
+    }
   
-  .skills {
-    margin-top: 20px;
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .skills h1 {
-    color: #3e497a;
-  }
-  
-  .skills .list {
-    list-style: none;
-    width: 60%;
-  }
-  
-  .list span {
-    font-size: 20px;
-  }
-  
+ 
   @media only screen and (max-width: 600px) {
     .about h2 {
       font-size: 40px;
-    }
+    } 
+
+
   
-    /* .about .prompt {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    } */
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
   }

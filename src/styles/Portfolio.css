@@ -1,7 +1,16 @@
+
 .portfolio {
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.portfolio h2 {
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
 }
 
 /* images */

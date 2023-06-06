@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
     <div className="about"> 
-    <img className="prof-img" src={photo} alt="Profile"></img>
+    <img className="prof-img" src={photo} alt="Profile" />
     <h2>Shoshana Dorfman</h2>
     <div className='prompt'>
     <p>A Full-Stack Engineer with an  eye for detail, a creative mindset and a
@@ -21,23 +21,18 @@ function Home() {
     </div>
    
 
-    <div className="skills"> 
-    <h1>Skills</h1>
-    <ol className='list'>
-      <li className='item'>
-        <h2>Front-end</h2>
-        <span>ReactJS, HTML, CSS, Bootstrap, JavaScript</span>
-        </li>
-      <li className='item'>
-        <h2>Back-end</h2>
-        <span>Node.js, Express.js, MongoDB, Mongoose </span>
-        </li>
-      <li className='item'>
-        <h2>Other Skills and Tools</h2>
-        <span>VS Code, Github, SQL Computer Science Concepts, Data Structures and Algorithms</span>
-        </li>
-    </ol>
+    <div className="summary"> 
+    <h1>About</h1>
+    <p>Shoshana has recently graduated from an immersive Software Engineering program at Per Scholas. The rigorous curriculum covered HTML, CSS, JavaScript, ReactJS and the MERN Stack. Shoshana has applied these skills to creating a portfolio of responsive websites providing solutions to real world problems. 
+Shoshana is seeking a position that will utilize her full-stack stack development skills and is also open to opportunities for further learning and expanding her skillset. 
+Shoshana has a background in administration in the legal and medical fields. She is a strong communicator, problem solver and is adept at working in fast-paced environments. Coming to technology from a non- traditional background, Shoshana looks forward to bringing her unique perspective to the technology sector.</p>
     </div>
+
+    {/* <div className='badges'>
+      <img src='https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white' 
+      alt='skill'
+      />
+    </div> */}
 
      {/* todo link does not work on deployed site */}
     {/* <div>
