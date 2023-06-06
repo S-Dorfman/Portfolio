@@ -8,7 +8,7 @@ function Quoteapi({data}) {
     <h4>{data.sentence}</h4>
     <h5>{data.character.name}</h5>
     {/* <h5>{data.character.house.name}</h5> */}
-    <p>- randomly generated from Game of Thrones API</p>
+    {/* <p>- randomly generated from Game of Thrones API</p> */}
     </>
   )
 }

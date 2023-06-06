@@ -1,0 +1,22 @@
+.portfolio {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* images */
+img {
+    border: 5px solid #5f80ab;
+     border-radius: 50%;
+     width: 23%;
+     height: auto;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+
+    /* portfolio cards */
+.g-4 {
+    /* display: flex; */
+    justify-content: center;
+    gap: 10px;
+  }

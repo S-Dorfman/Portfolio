@@ -1,19 +1,17 @@
 import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
+import '../styles/Footer.css'
 
 
 
 function Footer() {
   return (
-    // TODO make icons a link
-    <div className="Footer">
-      <a href="https://github.com/S-Dorfman"><AiOutlineGithub size='1.5rem' /></a>
-      <a href="https://www.linkedin.com/in/shoshana-dorfman-859b161a2/"><AiOutlineLinkedin size='1.5rem'/></a>
-      <a href="mailto:sdorfman.tech@gmail.com"><AiOutlineMail size='1.5rem'/></a>
+    <div className="footer">
+      <div className='socialMedia'>
+      <a href="https://github.com/S-Dorfman"><AiOutlineGithub /></a>
+      <a href="https://www.linkedin.com/in/shoshana-dorfman-859b161a2/"><AiOutlineLinkedin /></a>
+      <a href="mailto:sdorfman.tech@gmail.com"><AiOutlineMail /></a>
+      </div>   
           
-          
-          
-
-
         <p> &copy;  2023 Shoshana Dorfman</p>
     </div>
   )

@@ -15,8 +15,9 @@ export const projectArr = [
         img: "https://images.unsplash.com/photo-1623476408624-721c9185d569?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60",
         title: "Star Wars API",
         text: "Star Wars API built with React",
-        url: "https://github.com/S-Dorfman/reactswapi"   
+        url: "https://swapi-sd.netlify.app/"   
     },
+    // todo add nike app 
     {
         img: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdmllJTIwbmlnaHR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
         title: "Movies App",

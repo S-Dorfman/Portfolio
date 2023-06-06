@@ -4,68 +4,21 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #E2EBF3 !important;
 }
 
 /* App.js */
 
 .App {
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-}
-
-/* * home */
-
-.home-page {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-/* .skills {
- 
-} */
-
-li {
-  list-style: none;
-}
-
-/* profile image */
-img {
-  border: 5px solid #5f80ab;
-   border-radius: 45%;
-   width: 23%;
-   height: auto;
-   margin-top: 10px;
-   margin-bottom: 10px;
-  }
-  
-
-.Footer {
-  margin-top: 100px;
-}
-
-/** portfolio */
-
-/* portfolio cards */
-.g-4 {
-  /* display: flex; */
-  justify-content: center;
-  gap: 10px;
-
-
-}
-
-
-
-
-
-/* .project-cards {
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 16rem;
-  height: 20rem;
-  gap: 5px; 
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* .App {
+  font-family: 'Ubuntu', sans-serif;
 } */
+
+

@@ -1,11 +1,12 @@
 import { Card, Button, Row } from "react-bootstrap";
 import { projectArr } from "../data/data";
 import Quote from "../components/Quote";
+import '../styles/Portfolio.css'
 
 function Portfolio() {
 
         return(
-            <div>
+            <div className="portfolio">
               <h2>Portfolio</h2>
               <br />
                 <Row xs={1} md={2} className="g-4">

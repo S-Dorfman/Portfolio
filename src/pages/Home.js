@@ -1,44 +1,42 @@
 // import { Button } from "react-bootstrap";
-// import Portfolio from "./Portfolio";
-import '../App.css';
-import pier from '../images/pier.jpg'
+import '../styles/Home.css';
+import photo from '../images/photo.jpg'
 import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
 
 
 function Home() {
   return (
-    <div className="home-page">
-    <div className=""> 
-    <h2>Hi, I'm Shoshana Dorfman!</h2>
-    <img className="prof-img" src={pier} alt="At Pier"></img>
-    <div className='home-icons'>
-    <a href="https://github.com/S-Dorfman"><AiOutlineGithub size='2.5rem' /></a>
-      <a href="https://www.linkedin.com/in/shoshana-dorfman-859b161a2/"><AiOutlineLinkedin size='2.5rem'/></a>
-      <a href="mailto:sdorfman.tech@gmail.com"><AiOutlineMail size='2.5rem'/></a>
+    <div className="home">
+    <div className="about"> 
+    <img className="prof-img" src={photo} alt="Profile"></img>
+    <h2>Shoshana Dorfman</h2>
+    <div className='prompt'>
+    <p>A Full-Stack Engineer with an  eye for detail, a creative mindset and a
+      passion for learning and creating.</p>
+      
+    <a href="https://github.com/S-Dorfman"><AiOutlineGithub /></a>
+      <a href="https://www.linkedin.com/in/shoshana-dorfman-859b161a2/"><AiOutlineLinkedin /></a>
+      <a href="mailto:sdorfman.tech@gmail.com"><AiOutlineMail /></a>
     </div>
-    <h3>I'm a Full-Stack Engineer with an  eye for detail, a creative mindset and 
-      passion for creating dynamic, responsive websites
-      that provide a valuable and seamless user experience.</h3>
     </div>
    
-    
-    
-    <br /> 
 
     <div className="skills"> 
-    <h3>Skills:</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Node.js</li>
-      <li>Express.js</li>
-      <li>MongoDB </li>
-      <li>Mongoose</li>
-      <li>React</li>
-      <li>SQL Computer Science Concepts Frontend and Backend Frameworks</li>
-      <li>Data Structures and Algorithms</li>
-    </ul>
+    <h1>Skills</h1>
+    <ol className='list'>
+      <li className='item'>
+        <h2>Front-end</h2>
+        <span>ReactJS, HTML, CSS, Bootstrap, JavaScript</span>
+        </li>
+      <li className='item'>
+        <h2>Back-end</h2>
+        <span>Node.js, Express.js, MongoDB, Mongoose </span>
+        </li>
+      <li className='item'>
+        <h2>Other Skills and Tools</h2>
+        <span>VS Code, Github, SQL Computer Science Concepts, Data Structures and Algorithms</span>
+        </li>
+    </ol>
     </div>
 
      {/* todo link does not work on deployed site */}
@@ -47,7 +45,7 @@ function Home() {
     </div> */}
 
     </div>
-  )
+  );
 }
 
 export default Home;
