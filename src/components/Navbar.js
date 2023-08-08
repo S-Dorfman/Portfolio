@@ -6,12 +6,12 @@ import '../styles/Navbar.css'
 function NavBar() {
   return (
     <>
-<Navbar style={{backgroundColor: "#5f80ab"}} variant="dark" sticky="top">
+<Navbar style={{backgroundColor: "#072a58"}} variant="dark" sticky="top">
         <Container>
-          <Navbar.Brand style={{fontFamily: "Dancing Script", fontSize: "30px"}} as={Link} to="/">SD</Navbar.Brand>
+          <Navbar.Brand style={{fontFamily: "Dancing Script", fontSize: "30px", color: "#83eba2"}} as={Link} to="/">SD</Navbar.Brand>
           <Nav className="me-auto">
-          <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to='/portfolio'>Portfolio</Nav.Link>
+          <Nav.Link style={{color: "#83eba2"}} as={Link} to="/">Home</Nav.Link>
+            <Nav.Link style={{color: "#83eba2"}} as={Link} to='/portfolio'>Portfolio</Nav.Link>
             {/* <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>  */}
           </Nav>
         </Container>
