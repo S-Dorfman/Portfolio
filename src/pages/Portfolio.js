@@ -19,7 +19,7 @@ function Portfolio() {
               <Card.Body>
                 <Card.Title>{element.title}</Card.Title>
                 <Card.Text>{element.text}</Card.Text>
-                <Button style={{backgroundColor: "#669BBC"}}  variant="light" href={element.url}>View Project</Button>
+                <Button style={{backgroundColor: "#072a58"}}  variant="dark" href={element.url}>View Project</Button>
                 {/* <Button style={{backgroundColor: "#669BBC"}}  variant="light" href={element.url}>View Code</Button> */}
               </Card.Body>
             </Card>

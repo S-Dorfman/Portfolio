@@ -30,7 +30,7 @@ Shoshana has a background in administration in the legal and medical fields. She
     <h3>Front-end</h3>
     <p> ReactJS, HTML, CSS, JavaScript, Bootstrap</p>
     <h3>Back-end</h3>
-    <p>MongoDB, Mongoose, ExpressJS, ReactJS, NodeJS </p>
+    <p>MongoDB, Mongoose, Express, ReactJS, NodeJS, Java</p>
     </div>
 
     

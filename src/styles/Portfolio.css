@@ -8,14 +8,14 @@
 
 .portfolio h2 {
     font-weight: 500;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #072a58;
     font-size: 50px;
 
 }
 
 /* images */
 img {
-    border: 5px solid #5f80ab;
+    border: 5px solid #072a58;
      border-radius: 50%;
      width: 23%;
      height: auto;
